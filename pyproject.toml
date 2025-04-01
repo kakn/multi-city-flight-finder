@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "skylark"
+version = "0.1.0"
+description = "An application that finds the cheapest flights for two or more travellers to fly to."
+authors = ["Kasper Knudsen <kasper.knudsen@dencrypt.dk>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
